@@ -6,3 +6,15 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+calamine = "0.22.1"
+serde_json = "1.0.108"
+anyhow = "1.0.68"
+clap = "2.33.0"
+docx-rs = "0.4.7"
+lopdf = "0.31.0"
+quick-xml = "0.31.0"
+zip = "0.6.6"
+serde = "1.0.193"
+walkdir = "2"
+winapi = { version = "0.3", features = ["winnt"] }
+rayon = "1.5"
